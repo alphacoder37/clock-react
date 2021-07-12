@@ -2,7 +2,7 @@
 const Break = ( {breakLength, increaseBreakLength, decreaseBreakLength}) => {
     return (
       <div id="break">
-        <p>Break Length</p>
+        <p id="break-label">Break Length</p>
         <div className="container" id="break-buttons">
           <button id="break-decrement" onClick={decreaseBreakLength}>
           <i className="fas fa-arrow-down"></i>
